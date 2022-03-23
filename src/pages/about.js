@@ -1,6 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
+
 // styles
 const pageStyles = {
   color: "#232129",
@@ -131,7 +132,7 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <title>Home Page</title>
-      <Link to="/about">About</Link>
+      <Link to="/about">Homepage</Link>
       <h1 style={headingStyles}>
         Congratulations
         <br />
@@ -141,11 +142,11 @@ const IndexPage = () => {
         </span>
       </h1>
       <p style={paragraphStyles}>
-        Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
-        update in real-time.{" "}
-        <span role="img" aria-label="Sunglasses smiley emoji">
-          😎
-        </span>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed justo lacus, euismod vel porttitor vitae, posuere eget tortor. Etiam id dui dapibus, hendrerit erat at, aliquet tellus. Vestibulum faucibus dui et quam auctor aliquam. Donec quis nibh malesuada, dapibus nibh eu, malesuada turpis. Sed semper mi in felis tristique convallis. Duis sed nunc eu tortor porta dictum eget suscipit augue. Sed erat sem, porttitor nec velit non, bibendum posuere dolor. Praesent eget feugiat nisi, ac eleifend tortor. Integer tristique finibus ipsum, a pulvinar tellus ullamcorper quis. Phasellus dignissim odio quis odio lobortis blandit. Vestibulum id ex pretium, varius ex ut, ullamcorper risus. Etiam non rhoncus justo, vitae accumsan est. Aenean feugiat tempor est, nec fringilla sapien lobortis aliquet.
+
+Nulla consequat, nisi nec finibus posuere, enim dui egestas mi, eget vulputate nisi risus nec nulla. Suspendisse ac dui erat. Nunc id dolor felis. Proin metus est, suscipit quis mollis eget, rutrum et urna. Nunc accumsan vulputate mollis. Nam ac dignissim urna. Nam tempor tristique ex nec convallis. Nullam rutrum viverra hendrerit. Pellentesque porta molestie arcu vel ornare. Mauris mollis sapien felis, sed ultrices mauris facilisis sed.
+
+Proin fringilla suscipit tristique. Suspendisse tempor est metus, quis blandit arcu congue rhoncus. Fusce vehicula in ipsum eu aliquet. Curabitur imperdiet maximus metus pellentesque ullamcorper. Proin porta pulvinar leo, vitae iaculis dui gravida ut. In vel finibus mi. Aliquam volutpat, nunc at mollis mollis, nisl dolor egestas libero, in sodales sapien orci at ex.
       </p>
       <ul style={listStyles}>
         <li style={docLinkStyle}>
